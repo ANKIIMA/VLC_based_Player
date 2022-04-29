@@ -1,2 +1,4 @@
 # VLC_based_Player
 使用MFC和VLC开发的简单视频播放器，功能包括播放暂停，单帧播放，快进快退，进度条等，窗口能自适应尺寸。使用VS2019开发，编译链接为64位Release平台，其中VLC已经静态连接，但是项目使用了OpenCV需要自行配置；另外，release文件没有上传，如果需要运行请查看VLC配置方法，将64位VLC中的plugins文件以及VLC的libvlc.dll和libvlccore.dll核心组件复制到release文件下，否则无法运行。
+# 基本原理
+参考网上一些教程对VLC做类封装，加上自己需要实现的功能，结合MFC构建。
